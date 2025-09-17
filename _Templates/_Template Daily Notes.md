@@ -13,6 +13,8 @@ views:
     filters:
       and:
         - file.tags.contains("Task")
+        - file.name != "_Template Task"
+        - status != "done"
     order:
       - file.name
       - status
