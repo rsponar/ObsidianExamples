@@ -14,7 +14,7 @@ const newTitle = await tp.system.prompt("Enter Task title");
 await tp.file.rename(newTitle);
 
 // Move this note to the desired folder (change according to your folder name)
-await tp.file.move("/Documentation/Tasks" + newTitle);
+await tp.file.move("/Documentation/Tasks/" + newTitle);
 %>
 ## 📖Steps
 
