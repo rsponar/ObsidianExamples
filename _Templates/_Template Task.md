@@ -6,7 +6,7 @@ project:
 task_order:
 status: in Progress
 ---
-<% 
+<%*
 // Get Title of Task
 const newTitle = await tp.system.prompt("Enter Task title");
 

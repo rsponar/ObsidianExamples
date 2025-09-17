@@ -40,9 +40,15 @@ views:
       - task_order
       - file.name
       - status
+    sort:
+      - property: task_order
+        direction: ASC
+      - property: Date
+        direction: ASC
     columnSize:
       note.task_order: 78
       file.name: 238
+
 ```
 
 
